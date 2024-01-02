@@ -1,9 +1,10 @@
-body{
-    scroll-behavior: smooth;
-    background-image: url(landingPageImages/9.png);
-    background-size: cover; background-position: center center;
-    background-repeat: no-repeat;
-  }
+body {
+  scroll-behavior: smooth;
+  background-image: url(landingPageImages/9.png);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
 
 #nav-bar {
   display: flex;
@@ -57,18 +58,18 @@ body{
   gap: 1rem;
 }
 
-#hero .page1-text h1 {
+#hero .hero-text h1 {
   font-weight: 100;
   font-size: 2.6rem;
   width: 21.8rem;
   color: #0c7613;
 }
 
-#hero .page1-text p {
+#hero .hero-text p {
   width: 21.8rem;
 }
 
-#hero .page1-img img {
+#hero .hero-img img {
   width: 45rem;
 }
 
@@ -284,4 +285,62 @@ body{
 #footer .links li:hover {
   color: #069fac;
   cursor: pointer;
+}
+
+@media (max-width: 1178px) {
+  body {
+    padding: 1rem;
+    background-attachment: fixed;
+  }
+
+  #hero {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 200px;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+
+  #hero .hero-img img {
+    margin-top: -190px;
+    margin-bottom: 10px;
+    padding: 0px;
+  }
+
+  #hero .hero-text p {
+    width: 100%;
+    margin-top: -20px;
+  }
+
+  #hero .hero-text h1 {
+    width: 100%;
+    margin-top: -20px;
+  }
+  #features {
+    margin-top: -25px;
+  }
+
+  #numericContent {
+    margin-top: 45px;
+  }
+
+  #about {
+    margin-top: 50px;
+  }
+  #about .about-img img {
+    width: 300px;
+  }
+
+  #testimonial {
+    margin-top: 20px;
+  }
+
+  #testimonial .testimonial-img-text .box {
+    width: 330px;
+    height: 200px;
+  }
+
+  #testimonial .testimonial-img-text .box img {
+    width: 80px;
+  }
 }
