@@ -121,7 +121,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 3%;
   
   }
 
@@ -146,4 +146,34 @@
     font-weight: 100;
     font-size: 1.8rem;
     color:#50F7F6;
+  }
+
+  #about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+  
+
+  }
+  
+  #about .about-img img{
+    width: 23rem;
+    margin-top: -9%;
+  }
+  
+  #about .about-text h2{
+    font-weight: 100;
+    font-size: 2rem;
+    color: #0c7613;
+    margin-top: -3%;
+  }
+  
+  #about .about-text p{
+    margin-top: -15px;
+    width: 22rem;
+    font-size: 1rem;
+    text-align: start;
+    line-height: 1.3rem;
   }
