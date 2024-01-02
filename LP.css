@@ -70,3 +70,49 @@
   #hero .page1-img img{
     width: 45rem;
   } 
+
+  #features .features-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 3%;
+   
+  }
+  
+  #features .cont1 img{
+    width: 150px;
+  }
+  
+  #features .features-text h2{
+    font-weight: 100;
+    font-size: 2rem;
+    color: #0c7613;
+  }
+  
+  #features .features-text p{
+    margin-top: -25px;
+    width: 550px;
+    text-align: center;
+  }
+  
+  #features .features-img-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  #features .features-img-text .cont1{
+   text-align: center;
+   width: 200px;
+  }
+  
+  #features .features-img-text .cont1 p{
+   margin-top: -15px;
+  }
+  
+  #features .features-img-text .cont1 h3{
+    color: #09540e;
+    font-weight: 100;
+    margin-top: -15px;
+  }
