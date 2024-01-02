@@ -116,3 +116,34 @@
     font-weight: 100;
     margin-top: -15px;
   }
+
+  #numericContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+  
+  }
+
+  #numericContent .numericContent-div{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+    background-color: #0c7613;
+    border-radius: 10px;
+    width: 56rem;
+  }
+  
+  #numericContent .numericContent-text{
+    width: 100px;
+    justify-content: center;
+    text-align: center;
+    color: aliceblue;
+  }
+  
+  #numericContent .numericContent-text h1{
+    font-weight: 100;
+    font-size: 1.8rem;
+    color:#50F7F6;
+  }
