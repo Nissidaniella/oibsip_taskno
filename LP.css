@@ -1,3 +1,10 @@
+body{
+    scroll-behavior: smooth;
+    background-image: url(landingPageImages/9.png);
+    background-size: cover; background-position: center center;
+    background-repeat: no-repeat;
+  }
+
 #nav-bar {
   display: flex;
   flex-direction: row;
@@ -259,4 +266,22 @@
 .rainbow-hover:active {
   transition: 0.3s;
   transform: scale(0.93);
+}
+
+#footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 80px;
+}
+
+#footer .links li {
+  list-style: none;
+  color: #3e3e3e;
+  font-weight: 100;
+}
+
+#footer .links li:hover {
+  color: #069fac;
+  cursor: pointer;
 }
